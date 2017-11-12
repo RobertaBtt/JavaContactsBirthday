@@ -1,0 +1,11 @@
+./src/com/touche/client/contactbook/sourcereader/SourceReaderBehaviour.java
+./src/com/touche/client/contactbook/sourcereader/FileReaderBehaviour.java
+./src/com/touche/client/contactbook/sourcereader/DatabaseReaderBehaviour.java
+./src/com/touche/client/contactbook/messagesender/MessageUtilities.java
+./src/com/touche/client/contactbook/messagesender/SendMessageBehaviour.java
+./src/com/touche/client/contactbook/messagesender/SendMessageMailBehaviour.java
+./src/com/touche/client/contactbook/messagesender/SendMessageSMSBehaviour.java
+./src/com/touche/client/contactbook/model/ContactBook.java
+./src/com/touche/client/contactbook/model/ContactBookDatabase.java
+./src/com/touche/client/contactbook/model/ContactBookFile.java
+./src/com/touche/client/contactbook/main/Main.java

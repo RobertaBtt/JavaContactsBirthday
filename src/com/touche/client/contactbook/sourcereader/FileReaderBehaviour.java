@@ -23,7 +23,6 @@ public class FileReaderBehaviour  implements SourceReaderBehaviour {
 			
 		} catch (FileNotFoundException e) {
 			System.out.println ("File not Found" + source);	
-			e.printStackTrace();
 		}
 				
 		return linesFromSource;

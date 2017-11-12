@@ -12,7 +12,7 @@ import com.touche.client.contactbook.sourcereader.FileReaderBehaviour;
 public class FileReaderBehaviourTest {
 	
 	private  static final String FILE_EMPTY = "EmptyTestInput.txt";
-	private  static final String FILE = "TestInput.txt";
+	private  static final String FILE = "contacts.txt";
 	private  static final int NUMBER_OF_LINES = 10;
 	private FileReaderBehaviour fileReaderBehaviour;
 	
