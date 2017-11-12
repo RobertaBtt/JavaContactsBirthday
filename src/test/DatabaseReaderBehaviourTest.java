@@ -6,7 +6,7 @@ import java.util.List;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.touche.client.contactbook.DatabaseReaderBehaviour;
+import com.touche.client.contactbook.sourcereader.DatabaseReaderBehaviour;
 
 
 public class DatabaseReaderBehaviourTest {

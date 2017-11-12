@@ -1,4 +1,4 @@
-package com.touche.client.contactbook;
+package com.touche.client.contactbook.sourcereader;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Scanner;
 
 
-public class FileReaderBehaviour {
+public class FileReaderBehaviour  implements SourceReaderBehaviour {
 
 	public List<String> readSource(String source) {
 		

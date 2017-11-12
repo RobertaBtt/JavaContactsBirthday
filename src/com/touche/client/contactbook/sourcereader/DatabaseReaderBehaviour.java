@@ -1,8 +1,8 @@
-package com.touche.client.contactbook;
+package com.touche.client.contactbook.sourcereader;
 
 import java.util.List;
 
-public class DatabaseReaderBehaviour {
+public class DatabaseReaderBehaviour  implements SourceReaderBehaviour {
 
 	public List<String> readSource(String source) {
 		String databaseConnection = source;
