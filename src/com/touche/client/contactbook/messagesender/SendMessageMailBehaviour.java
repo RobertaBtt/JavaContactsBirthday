@@ -7,6 +7,7 @@ import java.util.List;
 public class SendMessageMailBehaviour implements SendMessageBehaviour {
 
 	public boolean sendMessage(String message, String subject, String destination) {
+		
 		try{
 			out.print("Sending e-Mail with Subject[" + subject+ "] to " + destination);			
 		}catch (Exception ex){

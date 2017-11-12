@@ -5,6 +5,8 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
+import com.touche.client.contactbook.messagesender.SendMessageMailBehaviour;
+import com.touche.client.contactbook.messagesender.SendMessageSMSBehaviour;
 import com.touche.client.contactbook.model.ContactBookDatabase;
 import com.touche.client.contactbook.sourcereader.DatabaseReaderBehaviour;
 
@@ -19,10 +21,15 @@ public class ContactBookDatabaseTest {
 	}
 	
 	@Test
-	public final void testGetLinesFromSource(){		
-		assertEquals(DatabaseReaderBehaviour.class, contactBookDatabase.getSourceReaderBehaviour().getClass());
-		
+	public final void testSourceReaderClass(){		
+		assertEquals(DatabaseReaderBehaviour.class, contactBookDatabase.getSourceReaderBehaviour().getClass());		
+	}
+	
+	@Test
+	public final void testSendMessageBehaviourClass(){		
+		assertEquals(SendMessageSMSBehaviour.class, contactBookDatabase.getSendMessageBehaviour().getClass());		
 	}
 	
 	
 }
+
