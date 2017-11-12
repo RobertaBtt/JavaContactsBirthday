@@ -19,7 +19,18 @@ public class SendMessageSMSBehaviour implements SendMessageBehaviour {
 	}
 
 	public boolean sendBirthdayMessage(List<String> contacts) {
-		return true;
+		
+		if (contacts!= null){
+			for (String contact : contacts){
+				String[] splittedString = contact.split(", ");
+				String dateOfBirth = splittedString[2];
+				if (MessageUtilities.isTodayBirth(dateOfBirth.substring(5), "yyyy/MM/dd")){
+					sendMessage("Happy birthday, dear " + splittedString[1]+" !", "Happy Birthday!", splittedString[3]);
+				}
+			}			
+			return true;			
+		}		
+		return false;					
 		
 	}
 	
