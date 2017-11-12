@@ -1,0 +1,10 @@
+last_name, first_name, date_of_birth, email
+Doe, John, 1982/10/08, john.doe@foobar.com
+Ann, Mary, 1975/09/11, mary.ann@foobar.com
+Redford, Robert, 1988/11/11, robert@foobar.com
+Aralis, Katiuscia, 1990/11/12, karalis@foobar.com
+Newton, Steven, 1972/11/12, steven@foobar.com
+Young, Paul, 1988/11/13, paul.young@foobar.com
+Young, Cristina, 1982/11/13, cristina.young@foobar.com
+Pitt, Angela, 1986/11/13, pitt@foobar.com
+Fowler , Mark, 1988/11/13, mark@foobar.com
