@@ -21,7 +21,7 @@ public class DatabaseReaderBehaviourTest {
 	}
 	
 	@Test
-	public final void testGetLinesFromSource(){		
+	public final void testReadSource(){		
 		List<String> linesFromSource = databaseReaderBehaviour.readSource(CONNECTION_STRING);
 		assertEquals(null, linesFromSource);
 	}

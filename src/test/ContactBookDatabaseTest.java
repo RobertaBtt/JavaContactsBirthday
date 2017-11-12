@@ -5,7 +5,6 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.touche.client.contactbook.messagesender.SendMessageMailBehaviour;
 import com.touche.client.contactbook.messagesender.SendMessageSMSBehaviour;
 import com.touche.client.contactbook.model.ContactBookDatabase;
 import com.touche.client.contactbook.sourcereader.DatabaseReaderBehaviour;

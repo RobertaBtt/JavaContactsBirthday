@@ -22,15 +22,26 @@ public class SendMessageSMSBehaviour implements SendMessageBehaviour {
 		
 		if (contacts!= null){
 			for (String contact : contacts){
-				String[] splittedString = contact.split(", ");
-				String dateOfBirth = splittedString[2];
-				if (MessageUtilities.isTodayBirth(dateOfBirth.substring(5), "yyyy/MM/dd")){
-					sendMessage("Happy birthday, dear " + splittedString[1]+" !", "Happy Birthday!", splittedString[3]);
+				try{
+					String[] splittedString = contact.split(", ");
+					
+					String dateOfBirth = splittedString[2];
+					String name = splittedString[1];
+					String destination = splittedString[3];
+					
+					if (MessageUtilities.isTodayBirth(dateOfBirth.substring(5), "yyyy/MM/dd")){
+						sendMessage("Happy birthday, dear " + name +" !", "Happy Birthday!", destination);
+					}
 				}
-			}			
-			return true;			
-		}		
-		return false;					
+				catch(Exception ex){
+					System.out.println("Check Data Content");
+					return false;
+				}
+			}
+		
+			return true;		
+		}
+		return false;				
 		
 	}
 	

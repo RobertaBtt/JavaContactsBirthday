@@ -11,7 +11,6 @@ public class DatabaseReaderBehaviour  implements SourceReaderBehaviour {
 	public List<String> readSource(String source) {
 		String databaseConnection = source;
 		System.out.print("Not implemented yet reading from database" + databaseConnection);
-		/*Run SQL query like "Select * from table.Employee"*/
 		return null;
 	}
 
