@@ -9,9 +9,9 @@ public class SendMessageSMSBehaviour implements SendMessageBehaviour {
 	public boolean sendMessage(String message, String subject, String destination) {
 		
 		try{
-			out.print("Sending SMS to " + destination);			
+			out.println("Sending SMS to " + destination);			
 		}catch (Exception ex){
-			out.print("Error while sending SMS " + ex.getMessage());
+			out.println("Error while sending SMS " + ex.getMessage());
 			return false;
 		}
 		

@@ -6,5 +6,5 @@ Aralis, Katiuscia, 1990/11/12, karalis@foobar.com
 Newton, Steven, 1972/11/12, steven@foobar.com
 Young, Paul, 1988/11/13, paul.young@foobar.com
 Young, Cristina, 1982/11/13, cristina.young@foobar.com
-Pitt, Angela, 1986/11/13, pitt@foobar.com
-Fowler , Mark, 1988/11/13, mark@foobar.com
+Pitt, Angela, 1986/11/12, pitt@foobar.com
+Fowler , Mark, 1988/11/12, mark@foobar.com

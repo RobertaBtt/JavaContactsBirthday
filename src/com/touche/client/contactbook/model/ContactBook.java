@@ -35,6 +35,15 @@ public abstract class ContactBook{
 		return sourceReaderBehaviour.readSource(source);
 	}
 	
+	public void performSendBirthdayMessage(List<String> contacts) {
+		sendMessageBehaviour.sendBirthdayMessage(contacts);
+	}
+	
+	public void performSendWelcomeMessage(List<String> contacts) {
+		sendMessageBehaviour.sendWelcomeMessage(contacts);
+	}
+	
+	
 	/*Check what classes have been setted*/
 	public SourceReaderBehaviour getSourceReaderBehaviour(){
 		return sourceReaderBehaviour;
